@@ -27,6 +27,12 @@ type PerHostnameAuthenticatedOriginPullsCertificateResponse struct {
 	Result PerHostnameAuthenticatedOriginPullsCertificateDetails `json:"result"`
 }
 
+// PerHostnameAuthenticatedOriginPullsCertificateResponse represents the response from endpoints relating to creating and deleting a Per Hostname AuthenticatedOriginPulls certificate.
+type PerHostnameAuthenticatedOriginPullsCertificateListResponse struct {
+	Response
+	Result []PerHostnameAuthenticatedOriginPullsCertificateDetails `json:"result"`
+}
+
 // PerHostnameAuthenticatedOriginPullsDetails contains metadata about the Per Hostname AuthenticatedOriginPulls configuration on a hostname.
 type PerHostnameAuthenticatedOriginPullsDetails struct {
 	Hostname       string    `json:"hostname"`
@@ -84,7 +90,7 @@ func (api *API) ListPerHostnameAuthenticatedOriginPullsCertificates(ctx context.
 	if err != nil {
 		return []PerHostnameAuthenticatedOriginPullsCertificateDetails{}, err
 	}
-	var r PerHostnameAuthenticatedOriginPullsCertificateResponse
+	var r PerHostnameAuthenticatedOriginPullsCertificateListResponse
 	if err := json.Unmarshal(res, &r); err != nil {
 		return []PerHostnameAuthenticatedOriginPullsCertificateDetails{}, fmt.Errorf("%s: %w", errUnmarshalError, err)
 	}
