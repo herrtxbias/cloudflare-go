@@ -1,4 +1,4 @@
-module github.com/cloudflare/cloudflare-go/v4
+module github.com/herrtxbias/cloudflare-go/v4
 
 go 1.21
 
