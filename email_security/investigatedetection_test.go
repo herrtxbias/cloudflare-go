@@ -8,10 +8,10 @@ import (
 	"os"
 	"testing"
 
-	"github.com/cloudflare/cloudflare-go/v4"
-	"github.com/cloudflare/cloudflare-go/v4/email_security"
-	"github.com/cloudflare/cloudflare-go/v4/internal/testutil"
-	"github.com/cloudflare/cloudflare-go/v4/option"
+	"github.com/herrtxbias/cloudflare-go/v4"
+	"github.com/herrtxbias/cloudflare-go/v4/email_security"
+	"github.com/herrtxbias/cloudflare-go/v4/internal/testutil"
+	"github.com/herrtxbias/cloudflare-go/v4/option"
 )
 
 func TestInvestigateDetectionGet(t *testing.T) {

@@ -8,10 +8,10 @@ import (
 	"os"
 	"testing"
 
-	"github.com/cloudflare/cloudflare-go/v4"
-	"github.com/cloudflare/cloudflare-go/v4/internal/testutil"
-	"github.com/cloudflare/cloudflare-go/v4/logpush"
-	"github.com/cloudflare/cloudflare-go/v4/option"
+	"github.com/herrtxbias/cloudflare-go/v4"
+	"github.com/herrtxbias/cloudflare-go/v4/internal/testutil"
+	"github.com/herrtxbias/cloudflare-go/v4/logpush"
+	"github.com/herrtxbias/cloudflare-go/v4/option"
 )
 
 func TestEdgeNewWithOptionalParams(t *testing.T) {

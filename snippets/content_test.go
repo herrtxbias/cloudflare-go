@@ -11,9 +11,9 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/cloudflare/cloudflare-go/v4"
-	"github.com/cloudflare/cloudflare-go/v4/option"
-	"github.com/cloudflare/cloudflare-go/v4/snippets"
+	"github.com/herrtxbias/cloudflare-go/v4"
+	"github.com/herrtxbias/cloudflare-go/v4/option"
+	"github.com/herrtxbias/cloudflare-go/v4/snippets"
 )
 
 func TestContentGet(t *testing.T) {

@@ -9,11 +9,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cloudflare/cloudflare-go/v4"
-	"github.com/cloudflare/cloudflare-go/v4/audit_logs"
-	"github.com/cloudflare/cloudflare-go/v4/internal/testutil"
-	"github.com/cloudflare/cloudflare-go/v4/option"
-	"github.com/cloudflare/cloudflare-go/v4/shared"
+	"github.com/herrtxbias/cloudflare-go/v4"
+	"github.com/herrtxbias/cloudflare-go/v4/audit_logs"
+	"github.com/herrtxbias/cloudflare-go/v4/internal/testutil"
+	"github.com/herrtxbias/cloudflare-go/v4/option"
+	"github.com/herrtxbias/cloudflare-go/v4/shared"
 )
 
 func TestAuditLogListWithOptionalParams(t *testing.T) {

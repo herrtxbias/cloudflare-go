@@ -3,7 +3,7 @@
 package api_gateway
 
 import (
-	"github.com/cloudflare/cloudflare-go/v4/option"
+	"github.com/herrtxbias/cloudflare-go/v4/option"
 )
 
 // APIGatewayService contains methods and other services that help with interacting

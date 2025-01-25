@@ -9,10 +9,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cloudflare/cloudflare-go/v4"
-	"github.com/cloudflare/cloudflare-go/v4/intel"
-	"github.com/cloudflare/cloudflare-go/v4/internal/testutil"
-	"github.com/cloudflare/cloudflare-go/v4/option"
+	"github.com/herrtxbias/cloudflare-go/v4"
+	"github.com/herrtxbias/cloudflare-go/v4/intel"
+	"github.com/herrtxbias/cloudflare-go/v4/internal/testutil"
+	"github.com/herrtxbias/cloudflare-go/v4/option"
 )
 
 func TestDNSListWithOptionalParams(t *testing.T) {

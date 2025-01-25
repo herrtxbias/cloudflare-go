@@ -1,7 +1,7 @@
 blank_issues_enabled: false
 contact_links:
   - name: v2.0.0 Beta feedback
-    url: https://github.com/cloudflare/cloudflare-go/discussions/1538
+    url: https://github.com/herrtxbias/cloudflare-go/discussions/1538
     about: |
       If you have a feature request or feedback on our new v2 library, please comment in our discussion page.
   - name: Cloudflare support

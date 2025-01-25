@@ -3,8 +3,8 @@
 package keyless_certificates
 
 import (
-	"github.com/cloudflare/cloudflare-go/v4/internal/apierror"
-	"github.com/cloudflare/cloudflare-go/v4/shared"
+	"github.com/herrtxbias/cloudflare-go/v4/internal/apierror"
+	"github.com/herrtxbias/cloudflare-go/v4/shared"
 )
 
 type Error = apierror.Error

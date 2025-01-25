@@ -12,11 +12,11 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/cloudflare/cloudflare-go/v4/internal/apiform"
-	"github.com/cloudflare/cloudflare-go/v4/internal/apijson"
-	"github.com/cloudflare/cloudflare-go/v4/internal/param"
-	"github.com/cloudflare/cloudflare-go/v4/internal/requestconfig"
-	"github.com/cloudflare/cloudflare-go/v4/option"
+	"github.com/herrtxbias/cloudflare-go/v4/internal/apiform"
+	"github.com/herrtxbias/cloudflare-go/v4/internal/apijson"
+	"github.com/herrtxbias/cloudflare-go/v4/internal/param"
+	"github.com/herrtxbias/cloudflare-go/v4/internal/requestconfig"
+	"github.com/herrtxbias/cloudflare-go/v4/option"
 )
 
 // FinetuneAssetService contains methods and other services that help with

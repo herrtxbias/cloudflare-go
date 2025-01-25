@@ -10,13 +10,13 @@ import (
 	"mime/multipart"
 	"net/http"
 
-	"github.com/cloudflare/cloudflare-go/v4/internal/apiform"
-	"github.com/cloudflare/cloudflare-go/v4/internal/apijson"
-	"github.com/cloudflare/cloudflare-go/v4/internal/param"
-	"github.com/cloudflare/cloudflare-go/v4/internal/requestconfig"
-	"github.com/cloudflare/cloudflare-go/v4/option"
-	"github.com/cloudflare/cloudflare-go/v4/packages/pagination"
-	"github.com/cloudflare/cloudflare-go/v4/shared"
+	"github.com/herrtxbias/cloudflare-go/v4/internal/apiform"
+	"github.com/herrtxbias/cloudflare-go/v4/internal/apijson"
+	"github.com/herrtxbias/cloudflare-go/v4/internal/param"
+	"github.com/herrtxbias/cloudflare-go/v4/internal/requestconfig"
+	"github.com/herrtxbias/cloudflare-go/v4/option"
+	"github.com/herrtxbias/cloudflare-go/v4/packages/pagination"
+	"github.com/herrtxbias/cloudflare-go/v4/shared"
 )
 
 // SnippetService contains methods and other services that help with interacting

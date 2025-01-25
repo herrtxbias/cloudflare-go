@@ -5,8 +5,8 @@ package shared
 import (
 	"time"
 
-	"github.com/cloudflare/cloudflare-go/v4/internal/apijson"
-	"github.com/cloudflare/cloudflare-go/v4/internal/param"
+	"github.com/herrtxbias/cloudflare-go/v4/internal/apijson"
+	"github.com/herrtxbias/cloudflare-go/v4/internal/param"
 )
 
 type ASN = int64

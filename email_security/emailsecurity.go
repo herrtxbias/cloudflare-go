@@ -3,7 +3,7 @@
 package email_security
 
 import (
-	"github.com/cloudflare/cloudflare-go/v4/option"
+	"github.com/herrtxbias/cloudflare-go/v4/option"
 )
 
 // EmailSecurityService contains methods and other services that help with

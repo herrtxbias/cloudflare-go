@@ -10,7 +10,7 @@ body:
     id: non_feature_request
     attributes:
       label: Confirm this is not a feature request
-      description: For feature requests or general feedback on the new API, comment in our [v2.0.0 Beta Discussion](https://github.com/cloudflare/cloudflare-go/discussions/1538)
+      description: For feature requests or general feedback on the new API, comment in our [v2.0.0 Beta Discussion](https://github.com/herrtxbias/cloudflare-go/discussions/1538)
       options:
         - label: This is a bug
           required: true
@@ -67,6 +67,6 @@ body:
     id: lib-version
     attributes:
       label: Library version
-      placeholder: github.com/cloudflare/cloudflare-go/v2@v2.0.0-beta.3
+      placeholder: github.com/herrtxbias/cloudflare-go/v2@v2.0.0-beta.3
     validations:
       required: true

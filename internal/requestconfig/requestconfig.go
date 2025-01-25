@@ -17,10 +17,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cloudflare/cloudflare-go/v4/internal"
-	"github.com/cloudflare/cloudflare-go/v4/internal/apierror"
-	"github.com/cloudflare/cloudflare-go/v4/internal/apiform"
-	"github.com/cloudflare/cloudflare-go/v4/internal/apiquery"
+	"github.com/herrtxbias/cloudflare-go/v4/internal"
+	"github.com/herrtxbias/cloudflare-go/v4/internal/apierror"
+	"github.com/herrtxbias/cloudflare-go/v4/internal/apiform"
+	"github.com/herrtxbias/cloudflare-go/v4/internal/apiquery"
 )
 
 func getDefaultHeaders() map[string]string {

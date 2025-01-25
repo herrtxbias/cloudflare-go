@@ -8,12 +8,12 @@ import (
 	"os"
 	"testing"
 
-	"github.com/cloudflare/cloudflare-go/v4"
-	"github.com/cloudflare/cloudflare-go/v4/internal/testutil"
-	"github.com/cloudflare/cloudflare-go/v4/option"
-	"github.com/cloudflare/cloudflare-go/v4/origin_ca_certificates"
-	"github.com/cloudflare/cloudflare-go/v4/shared"
-	"github.com/cloudflare/cloudflare-go/v4/ssl"
+	"github.com/herrtxbias/cloudflare-go/v4"
+	"github.com/herrtxbias/cloudflare-go/v4/internal/testutil"
+	"github.com/herrtxbias/cloudflare-go/v4/option"
+	"github.com/herrtxbias/cloudflare-go/v4/origin_ca_certificates"
+	"github.com/herrtxbias/cloudflare-go/v4/shared"
+	"github.com/herrtxbias/cloudflare-go/v4/ssl"
 )
 
 func TestOriginCACertificateNewWithOptionalParams(t *testing.T) {

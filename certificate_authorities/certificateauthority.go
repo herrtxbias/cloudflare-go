@@ -3,7 +3,7 @@
 package certificate_authorities
 
 import (
-	"github.com/cloudflare/cloudflare-go/v4/option"
+	"github.com/herrtxbias/cloudflare-go/v4/option"
 )
 
 // CertificateAuthorityService contains methods and other services that help with

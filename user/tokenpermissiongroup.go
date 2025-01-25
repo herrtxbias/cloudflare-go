@@ -6,9 +6,9 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/cloudflare/cloudflare-go/v4/internal/requestconfig"
-	"github.com/cloudflare/cloudflare-go/v4/option"
-	"github.com/cloudflare/cloudflare-go/v4/packages/pagination"
+	"github.com/herrtxbias/cloudflare-go/v4/internal/requestconfig"
+	"github.com/herrtxbias/cloudflare-go/v4/option"
+	"github.com/herrtxbias/cloudflare-go/v4/packages/pagination"
 )
 
 // TokenPermissionGroupService contains methods and other services that help with
